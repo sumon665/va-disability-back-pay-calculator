@@ -1,0 +1,147 @@
+
+#paycalMain {
+  padding: 10px 30px 30px 30px;
+  border: 1px solid #ddd;
+  background: #f9f9f9;
+  display: block;
+}
+
+#paycalMain .add_button {
+  color: #fff;
+  background: #002748;
+  padding: 15px;
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: none;
+  outline: none;
+  }
+
+.paycal .remove_button {
+  color: #fff;
+  background: #F4524D;
+  padding: 10px 25px;
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: none !important;
+  outline: none;
+  }
+
+.paycal {
+  border-bottom: 1px solid #ddd;
+  padding: 15px 0;
+}
+
+.paycal .header {
+  background: #1D2232;
+}
+
+.paycal .header h3 {
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+
+.paycal .content {
+  width: 100%;
+  display: flex;
+  margin-top: 0px;
+  flex-direction: row;
+}
+
+.paycal .content .left_cont,
+.paycal .content .right_cont {
+  width: 50%;
+  padding: 0 15px;
+}
+
+.paycal .content .input_content {
+  margin-top: 25px;
+}
+
+
+.paycal .content .input_content #spouse {
+  display: none;
+}
+
+.paycal .content .input_content label,
+.paycal .content .input_content span,
+.paycal .content .input_content span select {
+  display: block;
+  width: 100%;
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+
+
+.paycal .content .input_content span select {
+  height: 50px;
+  margin-top: 5px;
+  padding: 0 15px;
+  background:  #fff;
+}
+
+.paycal .content .input_content .input_marStatus label {
+  display: inline;
+}
+
+
+.paycal .content .input_year {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.paycal .content .input_year span {
+  width: 50%;
+  padding: 0 5px 0 0;
+}
+
+.paycal_btn #submit_paycal{
+  text-transform: uppercase;
+  width: 200px;
+  margin: 30px 0;
+  background-color: #E37721;
+  color:  #fff;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 14px 20px;
+  border: 0;
+  text-align: center;
+  letter-spacing: 0.1em;
+  line-height: 1;
+  font-family: inherit;
+}
+
+.paycal_btn #pcReset {
+  text-transform: uppercase;
+  width: 200px;
+  margin: 30px 0;
+  background-color: #334E5C;
+  color:  #fff !important;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 14px 20px;
+  border: 0;
+  text-align: center;
+  letter-spacing: 0.1em;
+  line-height: 1;
+  font-family: inherit;
+}
+
+.pcResult {
+  margin-top: 30px;
+}
+
+/* Mobile view */
+@media only screen and (max-width: 767px) {
+  
+  .paycal .content{
+    flex-direction: column;
+  }
+
+.paycal .content .left_cont,
+.paycal .content .right_cont {
+    width: 100% !important;
+  }
+
+}
